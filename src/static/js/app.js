@@ -1,5 +1,6 @@
 function App() {
     const { Container, Row, Col } = ReactBootstrap;
+    const heading = <h1>ToDo App by Hiroki Ota aka hatodove22 </h1>;
     return (
         <Container>
             <Row>
