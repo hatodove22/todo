@@ -49,10 +49,9 @@ function TodoListCard() {
 
     if (items === null) return 'Loading...';
     
-    const heading = <h1>ToDo App by Hiroki Ota aka hatodove22 </h1>;
-
     
     return (
+        const heading = <h1>ToDo App by Hiroki Ota aka hatodove22 </h1>;
         <React.Fragment>
             <AddItemForm onNewItem={onNewItem} />
             {items.length === 0 && (
